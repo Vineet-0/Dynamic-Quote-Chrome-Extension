@@ -1,0 +1,170 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    width: 600px;
+    height: 400px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    display: inner-flex;
+    margin: auto 10px;
+    font-size: 22px;
+    color: blue;
+    border-radius: 6px;
+    border: 1px solid lightblue;
+    padding: 10px;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #212e3e;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner-box {
+    width: 600px;
+    height: 400px;
+    background-color: #4b9cfe;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border: 0px solid red;
+    border-radius: 5px;
+
+}
+
+.box {
+    width: 600px;
+    height: 400px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    box-shadow: rgba(2, 2, 3, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.logo-box {
+    background-color: #4b9cfe;
+
+    width: 4rem;
+    height: 2rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 2px;
+    cursor: pointer;
+
+
+}
+
+.logo-box i {
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+.text-box {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+
+.text-box i {
+    font-size: 2.5rem;
+
+    color: rgb(52 52 79 / 37%);
+    padding-left: 15px;
+}
+
+#button {
+    width: 100%;
+    position: relative;
+    top: 5px;
+    background-color: #006dcc;
+    border: 0px;
+    height: 20%;
+    cursor: pointer;
+    color: white;
+    font-family: 'Dongle', sans-serif;
+    font-size: 18px;
+
+
+}
+
+.quotes {
+    font-family: 'Dancing Script';
+    padding-left: 33px;
+    font-size: 1.8rem;
+    height: 43%;
+}
+
+.author {
+    height: 23%;
+    padding-left: 70%;
+    font-size: 1.5rem;
+
+    font-family: 'Supermercado One', cursive;
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .inner-box {
+        width: 95vw;
+        height: 90vh;
+        background-color: #4b9cfe;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        border: 0px solid red;
+        border-radius: 5px;
+
+    }
+
+    .box {
+        width: 95%;
+        height: 80%;
+        background-color: #ffffff;
+        border-radius: 4px;
+        box-shadow: rgba(2, 2, 3, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #button {
+        width: 100%;
+        position: relative;
+        top: 60px;
+        background-color: #006dcc;
+        border: 0px;
+        height: 10%;
+        cursor: pointer;
+        color: white;
+        font-family: 'Dongle', sans-serif;
+        font-size: 18px;
+    }
+
+    .author {
+        height: 23%;
+        padding-left: 50%;
+    }
+
+}
